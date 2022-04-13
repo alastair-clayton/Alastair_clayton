@@ -2217,13 +2217,29 @@ E. Template Specific Elements
     .ts-promo-numbers h2 {
         font-size: 2.375rem;
     }
+    .bg_remove {
+        padding-left: 0;
+    }
+
 }
 
 @media (min-width: 48rem) and (max-width: 61.9375rem) {
+    header{height: 650px!important;}
     html {
         font-size: 90%;
     }
+    .contact_btn{
+        width: 150px!important;
+        margin: 10px 0px;
+    }
 
+    /* .navbar-nav{text-align: center!important;}
+    .navbar-nav .nav-link{padding: 10px;}
+    .btn-group{
+        text-align: center;
+        display: block;
+        padding: 5px 0px 5px 9px;
+    } */
     h1, .ts-h1 {
         font-size: 3rem;
     }
@@ -2254,6 +2270,9 @@ E. Template Specific Elements
 
     .ts-promo-numbers h2 {
         font-size: 2.5rem;
+    }
+    .bg_remove {
+        padding-left: 0;
     }
 }
 
@@ -2494,7 +2513,7 @@ E. Template Specific Elements
     min-height: 300px;
 }
 .carousel-item{
-    padding-top: 300px;
+    padding-top: 270px;
 }
 .carousel-control-prev{
     left: -20%!important;
@@ -2514,7 +2533,7 @@ E. Template Specific Elements
 
 .carousel-indicators{
     left: 0;
-    top:80%;
+    bottom:-15%;
     right: auto;
     margin-left: 0;
 }
@@ -2523,6 +2542,7 @@ E. Template Specific Elements
     height: 15px;
     border-radius: 50%;
 }
+.carousel-item p{min-height: 110px;}
 .bg_remove{
     background: transparent;
     border: none;
@@ -2539,5 +2559,10 @@ button:focus{
 .dropdown-menu{position: absolute; top: 30px;}
 .dropdown-menu a{
     font-size: 14px;
+}
+@media (max-width:978px){
+    header{
+      height: 650px!important;
+    }
 }
 
